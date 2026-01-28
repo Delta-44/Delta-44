@@ -22,14 +22,16 @@ Your GitHub profile README now includes:
 - Connect With Me badges
 - Visitor counter
 
+> **Note**: The README contains placeholder values (email, LinkedIn) that you should customize with your own information. See the customization section below.
+
 ## How to Customize
 
 ### Change the Banner Text
-Edit line 3 in README.md:
+In README.md line 3, find the Capsule Render API URL and locate the `text=` parameter:
 ```markdown
 text=Welcome%20to%20My%20Profile
 ```
-Replace with your desired text (use %20 for spaces)
+Replace `Welcome%20to%20My%20Profile` with your desired text (use %20 for spaces)
 
 ### Add/Remove Technology Icons
 1. Visit [Devicon](https://devicon.dev/) to find your technologies
@@ -40,12 +42,12 @@ Replace with your desired text (use %20 for spaces)
 3. Replace `TECHNOLOGY` with the technology name (e.g., `typescript`, `angular`, `postgresql`)
 
 ### Update Personal Information
-- **Email**: Line 84 - Replace `your.email@example.com` with your actual email
+- **Email**: Line 83 - Replace `your.email@example.com` with your actual email
 - **LinkedIn**: Line 86 - Replace `yourprofile` with your LinkedIn username
-- **About Me**: Lines 19-23 - Update with your personal information
+- **About Me**: Lines 19-23 - Update with your personal information and goals
 
 ### Change Color Theme
-The current theme is `tokyonight`. You can change it in the GitHub Stats section (lines 61-62, 66) to:
+The current theme is `tokyonight`. You can change it by updating the `theme=` parameter in the GitHub Stats image URLs (lines 61-62 for stats cards, line 66 for streak stats) to:
 - `dark`
 - `radical`
 - `merko`
