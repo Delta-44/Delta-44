@@ -20,10 +20,8 @@
 
 
 <br/><br/>
-
-
 <div align="center">
- ***TECH I USE OR USED TO USE...***
+ <h2>TECH I USE OR USED TO USE...</h2>
 </div>
 
 <div align="center">
